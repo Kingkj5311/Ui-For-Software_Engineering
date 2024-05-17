@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div>
+            <div class="sidebar-header">
+                <h2 class="Logo">Logo</h2>
+                <!-- <img src="./img/—Pngtree—business logo design free logo_915991.png" alt="Logo" class="Logo"> -->
+                <h3>School Name</h3>
+            </div>
+            <div class="side-hold">
+                <ul class="courses">
+                    <li class="course-header">Courses</li>
+                    <li class="active"><a href="#">Course 1</a></li>
+                    <li><a href="#">Course 2</a></li>
+                    <li><a href="#">Course 3</a></li>
+                    <li><a href="#">Course 4</a></li>
+                    <li><a href="#">Course 5</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="side-hold">
+                <ul>
+                    <li class="other-header">Notices</li>
+                    <li class="other-header">Calendar</li>
+                    <li class="other-header">Turnitin</li>
+                    <li class="other-header">Timeline</li>
+                </ul>
+            </div>
+        </div>
+        <div class="side-hold" id="log">
+            <ul>
+                <hr>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="topbar">
+            <div class="top-left">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-address-book"></i> Courses</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <img src="./img/man_5-1024-3834204264.png" alt="Profile Picture" class="pfp">
+                <p>Username</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="nav-left">
+                <ul>
+                    <li><a href="#"> <i class="fas fa-book"></i> Course</a></li>
+                    <li><a href="#"> <i class="fas fa-user"></i> Participants</a></li>
+                    <li><a href="#" class="active"><i class="fas fa-tasks"></i> Assignments</a></li>
+                    <li><a href="#"><i class="fas fa-list-alt"></i> Grades</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fas fa-search"></i> <input type="text" placeholder="Search"
+                                class="search-box"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="assignments">
+                <h1>Assignments for Course</h1>
+                <div class="assignment">
+                    <h2>Assignment 1</h2>
+                    <p>[Assignment Instructions]</p>
+                    <p class="t-right">Date Given: 12/12/2021</p>
+                    <p class="t-right">Due Date: 12/12/2021</p>
+                    <p><button>Resources</button></p>
+                    <p>Grade: 83/100</p>
+                    <div class="progress-bar">
+                        <div class="progress" id="progress1"></div>
+                    </div>
+                    <p>Completed 100%</p>
+                    <button class="disabled">Submitted</button>
+                </div>
+                <div class="assignment">
+                    <h2>Assignment 2</h2>
+                    <p>[Assignment Instructions]
+                    </p>
+                    <p class="t-right">Date Given: 12/12/2021</p>
+                    <p class="t-right">Due Date: 12/12/2021</p>
+                    <p><button>Resources</button></p>
+                    <p>Grade: 0/100</p>
+                    <div class="progress-bar">
+                        <div class="progress" id="progress2"></div>
+                    </div>
+                    <p>In Progress 75%</p>
+                    <button>Submit</button>
+                </div>
+                <div class="assignment">
+                    <h2>Assignment 3</h2>
+                    <p>Due Date: 12/12/2021</p>
+                    <p>Grade: 0/100</p>
+                    <button class="disabled">Submit</button>
+                </div>
+                <div class="assignment">
+                    <h2>Assignment 4</h2>
+                    <p>Due Date: 12/12/2021</p>
+                    <p>Grade: 0/100</p>
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+</body>
+
+</html>
